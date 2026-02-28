@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="fa533acc-e4c0-4f16-9b8d-9859f09e32ce" name="slife_db@localhost Mapping">
+      <data-sources db="47c3d459-cb29-489e-9537-4e03529c9321" />
+      <scope>
+        <node kind="schema" qname="slife_db" />
+      </scope>
+    </mapping>
+  </component>
+</project>
