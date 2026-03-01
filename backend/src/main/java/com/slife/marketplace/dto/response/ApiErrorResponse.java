@@ -7,5 +7,36 @@
  * - Viết unit/integration tests cho happy path + edge cases + error cases.
  */
 package com.slife.marketplace.dto.response;
-import lombok.Data;
-@Data public class ApiErrorResponse { private String code; private String message; private Object details; }
+
+public class ApiErrorResponse {
+
+    private String code;
+
+    private String message;
+
+    private Object details;
+
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public void setMessage(String message) {
+        this.message = message;
+    }
+
+    public Object getDetails() {
+        return details;
+    }
+
+    public void setDetails(Object details) {
+        this.details = details;
+    }
+}
