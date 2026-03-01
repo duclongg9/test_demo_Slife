@@ -8,4 +8,4 @@
  */
 package com.slife.marketplace.entity;
 import jakarta.persistence.*;import lombok.Data;
-@Data @Entity @Table(name="block") public class Block { @Id @GeneratedValue(strategy = GenerationType.IDENTITY) private Long id; private Long id; // TODO composite key }
+@Data @Entity @Table(name="block") public class Block { @Id @GeneratedValue(strategy = GenerationType.IDENTITY) private Long id; private Long id;} // TODO composite key
