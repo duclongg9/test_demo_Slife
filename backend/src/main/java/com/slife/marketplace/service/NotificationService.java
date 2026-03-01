@@ -8,4 +8,5 @@
  */
 package com.slife.marketplace.service;
 import org.springframework.stereotype.Service;
-@Service public class NotificationService { // TODO: triển khai methods theo spec, chỉ rõ validation/transaction/security. }
+@Service public class NotificationService { // TODO: triển khai methods theo spec, chỉ rõ validation/transaction/security.
+}
