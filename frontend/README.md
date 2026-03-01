@@ -31,3 +31,19 @@ Bộ khung frontend để team/AI tiếp tục triển khai UI, state management
 - Dev: `npm run dev`
 - Build: `npm run build`
 - Deploy static: Nginx hoặc copy vào Spring Boot static resources.
+
+
+## Chạy nhanh với backend local
+
+```bash
+npm install
+npm run dev
+```
+
+Mặc định frontend gọi API tới `http://localhost:8080` (xem `src/utils/constants.js`).
+
+Trang test admin check profile:
+
+- `http://localhost:5173/admin/users`
+- gọi API: `GET /api/admin/users`
+- hiển thị danh sách user dưới dạng bảng.
